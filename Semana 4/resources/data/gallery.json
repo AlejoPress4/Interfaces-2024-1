@@ -1,0 +1,47 @@
+[
+    {
+       "image": "https://www.rainforest-alliance.org/wp-content/uploads/2021/06/capybara-square-1.jpg.optimal.jpg",
+       "title": "Capy Serio",
+       "description": "Apreciamos un capy serio"
+    },
+    {
+       "image": "https://i.pinimg.com/474x/16/4f/c8/164fc89763be7f8f9869183dffd81db2.jpg",
+       "title": "CapyBatman",
+       "description": "CapyJusticia"
+    },
+    {
+       "image": "https://pbs.twimg.com/media/FFXbKXdXsAYj9EF?format=jpg&name=large",
+       "title": "CapyProgramador",
+       "description": "Minimo haciendo una pagina web con carpinchos"
+    },
+    {
+       "image": "https://pbs.twimg.com/media/FtzIylCWwAE4o6b?format=jpg&name=large",
+       "title": "Capy Durmiendo",
+       "description": "Yo todos los dias"
+    },
+    {
+       "image": "https://i.pinimg.com/originals/f8/49/a0/f849a06f4bb47d1d78e52676bad3fd87.jpg",
+        "title": "Capy Feliz",
+       "description": "Mirando a la nada pensando en el todo"
+    },
+    {
+       "image": "https://i.pinimg.com/originals/47/08/f6/4708f617087efc55640b482618a55d92.png",
+       "title": "Capy Reading",
+       "description": "Leyendo filosofia de Albert Camus"
+    },
+    {
+       "image": "https://external-preview.redd.it/0IC137zAg_VgtirLWVWKd_XeCpxP_-mCi6Gskns3Wfg.png?format=pjpg&auto=webp&s=aa730c29e5fc0b06328b4c54ddf5f43283f39b93",
+       "title": "Capy Conshesumadre",
+       "description": "No le tiene miedo a la muerte"
+    },
+    {
+       "image": "la url de la imagen AVIF, WebP, PNG o JPG ...",
+       "title": "Titulo de la imagen 8",
+       "description": "Una breve descripción de la imagen 8..."
+    },
+    {
+       "image": "https://i.pinimg.com/736x/c3/ef/ed/c3efed485e403561ccdc46e0d798e39a.jpg",
+       "title": "CapyGamer",
+       "description": "Minimo jugando al LoL"
+    }
+ ]
