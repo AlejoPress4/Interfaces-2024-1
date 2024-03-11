@@ -1,33 +1,29 @@
 export default class Slider {
   #currentIndex = 0;
   #autoplayInterval = null;
+  #galleryImg = null;
 
   constructor(config) {
     (async () => await this.#createSlider(config))();
   }
 
   async #createSlider(config) {
-    //Cargar el array de datos de la presentación desde gallery.json => galleryImg
-    const galleryImg = await fetch(config.gallery).then((response) =>
+    this.#galleryImg = await fetch(config.gallery).then((response) =>
       response.json()
     );
-    console.log(galleryImg);
-    //Intesetar el section al slider
+    console.log(this.#galleryImg);
     let slider = "";
-    //Recorrer el array gallery agregando a un string el html que represente cada <figure>
-    for (const img of galleryImg) {
-      //
+    for (const img of this.#galleryImg) {
       slider += `
         <figure>
-          <img src="${img.image}" alt="${img.title}">
+        <h3>${img.title}</h3>
+          <img class="image" src="${img.image}" alt="${img.title}">
           <figcaption>
-            <h3>${img.title}</h3>
             <p>${img.description}</p>
           </figcaption>
         </figure>
       `;
     }
-    //Agregar los gestores de eventos clic de los botones anterior y siguiente
     const body = document.querySelector(config.container);
     body.innerHTML = `
     <section id="gallery">
@@ -38,12 +34,21 @@ export default class Slider {
       </nav>
    </section>
    `;
-    //Detener autoplay cuando el usuario interactúa con los botones de navegación.
-
-    //Llamado a startAutoplay para que inice la presentación, terminada la carga del componente
+    document.querySelector('.prev-btn').addEventListener('click', () => this.#navigate(-1));
+    document.querySelector('.next-btn').addEventListener('click', () => this.#navigate(1));
+    this.#startAutoplay(1000000);
+    this.#navigate(0);
   }
 
-  //#navigate(direction) { ...  }
+  #navigate(direction) {
+    this.#currentIndex = (this.#currentIndex + direction + this.#galleryImg.length) % this.#galleryImg.length;
+    const figures = document.querySelectorAll('#gallery .gallery-container figure');
+    figures.forEach((figure, index) => {
+      figure.style.display = index === this.#currentIndex ? 'block' : 'none';
+    });
+  }
 
-  // #startAutoplay(interval) { ...  }
+  #startAutoplay(interval) {
+    this.#autoplayInterval = setInterval(() => this.#navigate(1), interval);
+  }
 }
