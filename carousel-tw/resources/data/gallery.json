@@ -1,0 +1,17 @@
+[
+  {
+    "image": "https://www.espai.es/blog/wp-content/uploads/2023/10/slider-dinamico-imagen2-japon.jpg",
+    "title": "Titulo de la imagen 1",
+    "description": "Una breve descripción de la imagen 1..."
+  },
+  {
+    "image": "https://www.espai.es/blog/wp-content/uploads/2023/10/slider-dinamico-imagen1-japon.jpg",
+    "title": "Titulo de la imagen 2",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laborum possimus, tempora neque porro rem expedita ipsa minima labore autem distinctio ullam. Beatae hic suscipit, unde earum doloremque deleniti corrupti!"
+  },
+  {
+    "image": "https://www.espai.es/blog/wp-content/uploads/2023/10/slider-dinamico-imagen3-japon.jpg",
+    "title": "Titulo de la imagen 100",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laborum possimus, tempora neque porro rem expedita ipsa minima labore autem distinctio ullam. Beatae hic suscipit, unde earum doloremque deleniti corrupti!"
+  }
+]

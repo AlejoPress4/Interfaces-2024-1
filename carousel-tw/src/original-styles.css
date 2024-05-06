@@ -1,0 +1,90 @@
+/* Estilo básico para la galería */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+figure {
+  margin: 0;
+}
+
+#gallery {
+  max-width: 99%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+}
+
+.gallery-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.gallery-item header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0 5px 0;
+  position: absolute;
+  top: 0;
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+  font-weight: bold;
+}
+
+.gallery-item figcaption {
+  display: flex;
+  width: 100%;
+  padding: 15px 10px 15px 10px;
+  position: absolute;
+  top: 91%;
+  color: white;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+  font-size: 80%;
+  box-sizing: border-box;
+}
+
+.gallery-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+}
+
+/* Navegación de la galería */
+.gallery-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  margin: 0 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-button {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-button > span {
+  font-size: 30px;
+}
+
+.nav-button:hover {
+  background-color: #005f5f;
+}
+
+.long-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+}

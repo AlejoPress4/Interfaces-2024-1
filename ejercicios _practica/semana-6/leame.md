@@ -1,0 +1,4 @@
+- El botón del alert debería ser rojo
+- Ejercicio utilizando popup toast y alert
+- Ponerlos a completar las subclases
+- agregar comentarios según especificaciones
