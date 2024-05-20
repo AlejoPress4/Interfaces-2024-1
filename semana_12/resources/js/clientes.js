@@ -55,7 +55,7 @@ export default class Clientes {
     Clientes.#currentOption = 'edit'
     Clientes.#modal = new Popup({
       classes: 'col-12 col-sm-10 col-md-9 col-lg-8 col-xl-7',
-      title: '<span class="text-back dark:text-gray-300">Actualizar un producto</span>',
+      title: '<span class="text-back dark:text-gray-300">Actualizar un cliente</span>',
       content: Clientes.#form,
       buttons: [
         { caption: 'Actualizar', classes: 'text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-1.5 text-center me-2 mt-2 ' },
