@@ -1,0 +1,69 @@
+.table-wrapper {
+  width: 100%;
+}
+.table {
+  display: block;
+  overflow: hidden;
+  table-layout: fixed;
+  boder-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  whute-space: nowrap;
+  width: 100em;
+  max-width: 80%;
+  margin: auto;
+  overflow-x: auto;
+}
+.table thead {
+  //encabezado de la tabla
+  background-color: #ccc;
+  color: #333;
+  font-weight: bold;
+}
+.table th,
+.table td {
+  //celda de encabezado y celda de datos
+  padding: 12px 15px;
+  text-align: center;
+}
+.table td {
+  //celda de datos
+  border-top: 0.5px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table tbody tr:hover {
+  //fila de la tabla al pasar el mouse
+  background-color: #eee;
+}
+.description {
+  width: 100%;
+}
+.label {
+  background-color: #777;
+}
+.label-notinitiated {
+  background-color: #f00;
+}
+.label-inprogress {
+  background-color: #ff0;
+}
+.label-completed {
+  background-color: #0f0;
+}
+.label-canceled {
+  background-color: #f0f;
+}
+.label-abandoned {
+  background-color: #00f;
+}
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+.actions svg {
+  cursor: pointer;
+}
+.delete-btn {
+  color: #f00;
+}

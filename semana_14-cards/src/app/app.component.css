@@ -1,0 +1,50 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  width: 1280px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Una columna*/
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+/* Dos columnas */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards {
+    display: flex;
+  }
+  .card {
+    width: 50%;
+    flex: 1;
+  }
+}
+
+/* Tres columnas */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .cards {
+    display: flex;
+  }
+  .card {
+    width: 33.33%; /* Ancho de cada tarjeta (un tercio del contenedor) */
+    flex: 1;
+  }
+}
+
+/*Cuatro columnas */
+@media (min-width: 1280px) {
+  .cards {
+    display: flex;
+  }
+  .card {
+    width: 25%;
+    flex: 1;
+  }
+}

@@ -1,0 +1,94 @@
+.table-wrapper {
+  width: 100%;
+}
+
+.table {
+  //tabla main
+  display: block;
+  overflow: hidden;
+  table-layout: fixed;
+  border-collapse: collapse;
+  box-shadow: 0px 10px 10px #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+  width: 100em;
+  max-width: 80%;
+  margin: auto;
+  table-layout: auto;
+  overflow-x: auto;
+}
+
+.table thead {
+  //encabezado de la tabla
+  background-color: #ccc;
+  color: #222;
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  //celdas de la tabla
+  padding: 0.8rem;
+}
+
+.table td {
+  border-top: 0.5px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #000;
+  width: 15%;
+}
+
+.table tbody tr:hover {
+  //hover de la tabla
+  background-color: #eee;
+  color: #000;
+}
+
+.description {
+  width: 100%;
+}
+
+.label {
+  //etiquetas
+  border-radius: 3px;
+  padding: 0.3rem;
+  color: #000;
+}
+
+.label-No_Iniciada {
+  color: #f00;
+}
+
+.label-En_Progreso {
+  color: #a8a000;
+}
+
+.label-Completada {
+  color: #0f0;
+}
+
+.label-Cancelada {
+  color: #f0f;
+}
+
+.label-Abandonada {
+  color: #00f;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions svg {
+  //iconos
+  cursor: pointer;
+}
+
+.delete-btn {
+  color: #e10d05;
+}
+.edit-btn {
+  color: #0d05e1;
+}

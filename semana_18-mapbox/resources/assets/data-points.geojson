@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.73481360986449 , 5.2023542899130195]
+            },
+            "properties": {
+                "site": "Museo del Rio Magdalena",
+                "description": "Unico en su especie, el Museo del rio Magdalena es el unico alusivo al rio mas importante de Colombia, el rio Magdalena. En el museo se pueden encontrar diferentes elementos que hacen referencia a traves de la historia y su importancia para el pais.",
+                "photo": "https://museodelriomagdalena.org/public/img/manager_img/1706035191.jpg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.73229953887534 , 5.202584081477181]
+            },
+            "properties": {
+                "site": "Puente Navarro",
+                "description": "Primer puente metalico construido en Suramerica, fue medio para los primeros contactos entre el rio y el centro del pais",
+                "photo": "https://www.fotocolombia.com/027/12027653.jpg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.73071355031607, 5.198676302886438]
+            },
+            "properties": {
+                "site": "Cerro Cacao en Pelota",
+                "description": "Vista privilegiada de la ciudad historica de Honda y el inicio del medio Magdalena contando la aventura y cercania con la naturaleza",
+                "photo": "https://sinbrujulaco.wordpress.com/wp-content/uploads/2018/09/panoramica-2.jpg?w=736"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.7380245006937 , 5.203793081921616]
+            },
+            "properties": {
+                "site": "Plaza de Mercado",
+                "description": "Nombrada como patrimonio intangible de la humanidad, la plaza de mercado de Honda es un lugar de tradicion, cultura e historia",
+                "photo": "https://www.ondasdeibague.com/images/TatianaAlvira2021/Noviembre/Plaza_de_mercado_Honda.jpg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.73776180052086, 5.202162939660079]
+            },
+            "properties": {
+                "site": "Catedral Nuestra Señora del Rosario",
+                "description": "Usada como punto de referencia central de la ciudad acompañada del parque principal de la ciudad, donde la historia y arquitectura colonial no se quedan atrás",
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Caterdral_El_Rosario_-_Honda._Tolima_vista_de_costado.JPG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.73609033955685 , 5.202994833571896]
+            },
+            "properties": {
+                "site": "Calle de las Trampas",
+                "description": "De los recorridos mas interesantes y llenos de historia de la epoca colonial que aun se conservan en la ciudad de Honda",
+                "photo": "https://colombiavisible.com/wp-content/uploads/2022/10/Honda-Tolima-1024x576.jpg"
+            }
+        }
+    ]
+}
